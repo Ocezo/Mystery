@@ -15,7 +15,7 @@ int main (int argc, char *argv[])
 	srand(time(NULL));
 	mystery_number = 1 + rand()%100; 	// between 1 and 100
 
-	printf("What is the mystery number [1..100] ? ");
+	printf("What's the mystery number [1..100] ? ");
 	scanf("%d", &proposed_number); counter++;
 
 	while (!found)
@@ -34,7 +34,7 @@ int main (int argc, char *argv[])
 		else
 		{
 			printf("It's more!\n");
-			printf("\nWhat is the mystery number [1..100] ? ");
+			printf("\nWhat's the mystery number [1..100] ? ");
 			scanf("%d", &proposed_number); counter++;
 		}
 	}
